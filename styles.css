@@ -1,0 +1,51 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+/* Fontsize */
+:root{
+    --body-font: 'Roboto', sans-serif;
+    --normal-font-size: 1.2rem;
+    --medium-font-size: 1.5rem;
+    --big-font-size: 2rem;
+}
+
+/* Colors */
+:root {
+    --first-color: #111010;
+    --second-color: #FAEAB1;
+    --bg-color: #C58940;
+    --hover-color: #E5BA73;
+}
+
+
+body, form, .table{
+    background-color: var(--bg-color);
+}
+
+.table {
+    max-width: 50%;
+    border: var(--second-color);
+    border-style: dashed;
+    font-size: var(--normal-font-size);
+}
+
+body{
+    font: var(--body-font);
+    color: var(--first-color);
+}
+
+.btn, #result {
+    font-size: var(--medium-font-size);
+}
+
+.output{
+    font-size: var(--big-font-size);
+}
+
+.btn:hover {
+    background-color: var(--hover-color);
+}
+
+.btn, #result, .output {
+    margin: 0 0 1rem 1rem;
+}
